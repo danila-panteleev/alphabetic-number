@@ -1,4 +1,4 @@
-import alphabetic_number as anum
+from .alphabetic_number import alpha_to_number, number_to_alpha
 
 
 ALPHA_TO_NUMBER_TEST_CASE = {
@@ -16,7 +16,7 @@ def alpha_to_number_test():
     for case in ALPHA_TO_NUMBER_TEST_CASE.keys():
         print(f'test case {case}')
         try:
-            received = anum.alpha_to_number(case)
+            received = alpha_to_number(case)
             expected = ALPHA_TO_NUMBER_TEST_CASE[case]
             assert received == expected
         except AssertionError:
