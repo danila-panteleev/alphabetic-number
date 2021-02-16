@@ -5,12 +5,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="alphabetic-number",
-    version="0.0.1",
-    author="danila-panteleev",
+    version="0.0.3",
+    author="Danila Panteleev",
     author_email="pont131995@gmail.com",
     description="Convert number to alphabetical from",
     long_description=long_description,
-    url="https://github.com/arocketman/git-and-pip",
+    url="https://github.com/danila-panteleev/alphabetic-number",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
