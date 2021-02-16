@@ -4,8 +4,8 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="alphabetic-number",
-    version="0.0.5",
+    name="alphabetic_number",
+    version="0.0.6",
     author="Danila Panteleev",
     author_email="pont131995@gmail.com",
     description="Convert number to alphabetical from",
