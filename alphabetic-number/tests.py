@@ -1,5 +1,4 @@
-from .alphabetic_number import alpha_to_number, number_to_alpha
-
+from .alphabetic_number import alpha_to_number
 
 ALPHA_TO_NUMBER_TEST_CASE = {
     'ABC': 731,

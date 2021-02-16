@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="alphabetic-number",
-    version="0.0.3",
+    version="0.0.4",
     author="Danila Panteleev",
     author_email="pont131995@gmail.com",
     description="Convert number to alphabetical from",
